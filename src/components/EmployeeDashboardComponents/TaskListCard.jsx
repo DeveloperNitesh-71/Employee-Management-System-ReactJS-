@@ -5,7 +5,7 @@ const TaskListCard = ({taskDate, taskTitle, taskDescription, category}) => {
   return (
     <div className="h-max  border rounded-lg p-3 shadow-md flex flex-col gap-2 shrink-0" >
       <div className="flex items-center justify-between">
-        <span className="bg-red-700 text-white font-medium px-1 rounded">{category}</span>
+        <span className="bg-blue-300 border-1 border-blue-500 text-white font-medium px-1 ">{category}</span>
         <span className="font-medium">{taskDate}</span>
       </div>
       <div className="w-full">
@@ -15,8 +15,9 @@ const TaskListCard = ({taskDate, taskTitle, taskDescription, category}) => {
         </p>
       </div>
       <div className="flex items-center justify-between">
-        <button className="rounded border-none bg-green-600 text-white font-medium px-1">Mark as Completed</button>
-        <button className="rounded border-none bg-red-600 text-white font-medium px-1">Mark as Failed</button>
+        <button className=" border-1
+        border-green-700 bg-green-400 text-white font-medium px-1">Mark as Completed</button>
+        <button className="bg-red-300 border-1 border-red-500 text-white font-medium px-1">Mark as Failed</button>
       </div>
     </div>
   );

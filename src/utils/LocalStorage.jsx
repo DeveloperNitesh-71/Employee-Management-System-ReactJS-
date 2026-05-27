@@ -1,8 +1,8 @@
 const employees = [
   {
     id: 1,
-    name: "Nitesh Pal",
-    logo: "NP",
+    name: "Sung Jinwoo",
+    logo: "SJ",
     email: "employee1@company.com",
     password: "123",
     tasks: [
@@ -12,10 +12,10 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
-        taskTitle: "Update Landing Page",
-        taskDescription: "Fix responsiveness issues on the hero section for mobile devices.",
-        taskDate: "2026-05-26",
-        category: "Design"
+        taskTitle: "Clear C-Rank Dungeon",
+        taskDescription: "Enter the newly appeared gate and eliminate the dungeon boss before it breaks.",
+        taskDate: "2026-05-27",
+        category: "Raid"
       },
       {
         TaskId: 2, 
@@ -23,10 +23,10 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
-        taskTitle: "Bug Fixes",
-        taskDescription: "Resolve console errors on the login page authentication flow.",
-        taskDate: "2026-05-24",
-        category: "Development"
+        taskTitle: "Daily Training Quest",
+        taskDescription: "Complete 100 push-ups, 100 sit-ups, 100 squats, and a 10km run to avoid the penalty zone.",
+        taskDate: "2026-05-26",
+        category: "System"
       },
       {
         TaskId: 3,
@@ -34,17 +34,17 @@ const employees = [
         newTask: false,
         completed: false,
         failed: false,
-        taskTitle: "Team Sync",
-        taskDescription: "Attend the weekly sprint planning meeting with the design team.",
-        taskDate: "2026-05-27",
-        category: "Meeting"
+        taskTitle: "Extract Shadow Soldiers",
+        taskDescription: "Defeat the elite beast class variants and add their souls to the shadow army.",
+        taskDate: "2026-05-28",
+        category: "Necromancy"
       }
     ]
   },
   {
     id: 2,
-    name: "Suraj Sharma",
-    logo: "SS",
+    name: "Muzan Kibutsuji",
+    logo: "MK",
     email: "employee2@company.com",
     password: "123",
     tasks: [
@@ -54,10 +54,10 @@ const employees = [
         newTask: false,
         completed: false,
         failed: true,
-        taskTitle: "Database Migration",
-        taskDescription: "Migrate legacy user data to the new schema setup.",
+        taskTitle: "Locate Blue Lily Lily",
+        taskDescription: "Search all regions across Japan to find the rare flower that grants absolute immortality.",
         taskDate: "2026-05-23",
-        category: "Backend"
+        category: "Research"
       },
       {
         TaskId: 2, 
@@ -65,10 +65,10 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
-        taskTitle: "API Integration",
-        taskDescription: "Connect the dashboard analytics wTaskIdgets to the third-party metrics API.",
-        taskDate: "2026-05-26",
-        category: "Development"
+        taskTitle: "Assemble Upper Ranks",
+        taskDescription: "Summon the remaining Upper Moon demons to the Infinity Castle for a performance review.",
+        taskDate: "2026-05-27",
+        category: "Management"
       },
       {
         TaskId: 3, 
@@ -76,10 +76,10 @@ const employees = [
         newTask: false,
         completed: false,
         failed: false,
-        taskTitle: "Code Review",
-        taskDescription: "Review pull requests for the admin panel registration module.",
-        taskDate: "2026-05-26",
-        category: "Quality Assurance"
+        taskTitle: "Distribute Demonic Blood",
+        taskDescription: "Inject concentrated progenitor blood into promising new recruits to boost their power scaling.",
+        taskDate: "2026-05-27",
+        category: "Operations"
       },
       {
         TaskId: 4,
@@ -87,17 +87,17 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
-        taskTitle: "Asset Optimization",
-        taskDescription: "Compress all newly added SVG icons and images for faster loading.",
+        taskTitle: "Eliminate Lower Moons",
+        taskDescription: "Purge weak, underperforming units from the corporate lower tier structure entirely.",
         taskDate: "2026-05-25",
-        category: "Design"
+        category: "HR"
       }
     ]
   },
   {
     id: 3,
-    name: "Saurabh Raj",
-    logo: "SR",
+    name: "Light Yagami",
+    logo: "LY",
     email: "employee3@company.com",
     password: "123",
     tasks: [
@@ -107,10 +107,10 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
-        taskTitle: "Tailwind Component Library",
-        taskDescription: "Build reusable button and input components using Tailwind CSS.",
+        taskTitle: "Monitor L's Investigation",
+        taskDescription: "Infiltrate the task force database to intercept data and track down the detective's identity.",
         taskDate: "2026-05-28",
-        category: "UI/UX"
+        category: "Intelligence"
       },
       {
         TaskId: 2,
@@ -118,10 +118,10 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
-        taskTitle: "Setup ESLint",
-        taskDescription: "Configure ESLint and Prettier rules across the project repository.",
+        taskTitle: "Establish New World Order",
+        taskDescription: "Eliminate high-profile criminal fugitives to maintain global peace and order.",
         taskDate: "2026-05-22",
-        category: "Configuration"
+        category: "Justice"
       },
       {
         TaskId: 3,
@@ -129,10 +129,10 @@ const employees = [
         newTask: false,
         completed: false,
         failed: false,
-        taskTitle: "Client Feedback Implementation",
-        taskDescription: "Adjust font sizes and padding settings based on the client's latest feedback.",
-        taskDate: "2026-05-26",
-        category: "Design"
+        taskTitle: "Secure Note Storage Hidden Desk",
+        taskDescription: "Re-engineer the false bottom desk drawer trap mechanism with gasoline incandescence.",
+        taskDate: "2026-05-27",
+        category: "Security"
       },
       {
         TaskId: 4, 
@@ -140,10 +140,10 @@ const employees = [
         newTask: false,
         completed: false,
         failed: true,
-        taskTitle: "Deploy Staging Build",
-        taskDescription: "Deploy the latest beta features to the staging server for client preview.",
+        taskTitle: "Discover L's Real Name",
+        taskDescription: "Bargain with Misa's Shinigami or use psychological traps to reveal the true alias.",
         taskDate: "2026-05-24",
-        category: "DevOps"
+        category: "Strategy"
       },
       {
         TaskId: 5, 
@@ -151,17 +151,17 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
-        taskTitle: "Documentation",
-        taskDescription: "Write basic setup instructions in the README.md file for new developers.",
+        taskTitle: "Maintain Perfect Student Alibi",
+        taskDescription: "Study for the university entrance exams while casually eating a potato chip.",
         taskDate: "2026-05-27",
-        category: "Documentation"
+        category: "Alibi"
       }
     ]
   },
   {
     id: 4,
-    name: "Pulkit Verma",
-    logo: "PV",
+    name: "Satoru Gojo",
+    logo: "SG",
     email: "employee4@company.com",
     password: "123",
     tasks: [
@@ -171,10 +171,10 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
-        taskTitle: "Create Favicons",
-        taskDescription: "Generate and configure multi-platform favicons for the client app.",
+        taskTitle: "Buy Kikufuku Mochi",
+        taskDescription: "Travel to Sendai to purchase the specific edamame-flavor sweet souvenirs for myself.",
         taskDate: "2026-05-24",
-        category: "Design"
+        category: "Leisure"
       },
       {
         TaskId: 2,
@@ -182,10 +182,10 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
-        taskTitle: "Form ValTaskIdation",
-        taskDescription: "Implement client-sTaskIde valTaskIdation logic for the contact form fields.",
-        taskDate: "2026-05-26",
-        category: "Development"
+        taskTitle: "Exorcise Special Grade Curse",
+        taskDescription: "Deploy Unlimited Void domain expansion if the target gets too annoying.",
+        taskDate: "2026-05-27",
+        category: "Exorcism"
       },
       {
         TaskId: 3,
@@ -193,17 +193,17 @@ const employees = [
         newTask: false,
         completed: false,
         failed: false,
-        taskTitle: "State Management Refactor",
-        taskDescription: "Refactor global state using Context API to fix prop drilling deep in the tree.",
+        taskTitle: "Train First-Year Students",
+        taskDescription: "Teach Megumi, Yuji, and Nobara how to control their cursed energy outputs effectively.",
         taskDate: "2026-05-27",
-        category: "Development"
+        category: "Education"
       }
     ]
   },
   {
     id: 5,
-    name: "Ajay Pratap",
-    logo: "AP",
+    name: "Naruto Uzumaki",
+    logo: "NU",
     email: "employee5@company.com",
     password: "123",
     tasks: [
@@ -213,10 +213,10 @@ const employees = [
         newTask: true,
         completed: false,
         failed: false,
-        taskTitle: "Dark Mode Toggle",
-        taskDescription: "Add a theme context switch to seamlessly change between light and dark modes.",
+        taskTitle: "Master Sage Mode",
+        taskDescription: "Sit completely still at Mount Myoboku to gather natural energy without turning into a toad.",
         taskDate: "2026-05-29",
-        category: "UI/UX"
+        category: "Ninjutsu"
       },
       {
         TaskId: 2,
@@ -224,8 +224,8 @@ const employees = [
         newTask: false,
         completed: true,
         failed: false,
-        taskTitle: "SEO Optimization",
-        taskDescription: "Add semantic HTML tags and meta descriptions to improve search ranking metrics.",
+        taskTitle: "Help Ichiraku Ramen Expand",
+        taskDescription: "Promote the shop around the Hidden Leaf Village and eat 5 bowls of miso chashu ramen.",
         taskDate: "2026-05-23",
         category: "Marketing"
       },
@@ -235,10 +235,10 @@ const employees = [
         newTask: false,
         completed: false,
         failed: true,
-        taskTitle: "Unit Testing",
-        taskDescription: "Write Jest tests for the custom data filtering utility functions.",
+        taskTitle: "Bring Sasuke Back",
+        taskDescription: "Locate the Hidden Sound hideout and convince Sasuke to return to Team 7.",
         taskDate: "2026-05-24",
-        category: "Quality Assurance"
+        category: "Diplomacy"
       },
       {
         TaskId: 4,
@@ -246,10 +246,10 @@ const employees = [
         newTask: false,
         completed: false,
         failed: false,
-        taskTitle: "Performance Audit",
-        taskDescription: "Run Lighthouse reports and analyze opportunities to improve page load speed.",
-        taskDate: "2026-05-26",
-        category: "Performance"
+        taskTitle: "Complete Hokage Paperwork",
+        taskDescription: "Review budget logs and security scrolls for the Hidden Leaf Village infrastructure projects.",
+        taskDate: "2026-05-27",
+        category: "Administration"
       }
     ]
   }

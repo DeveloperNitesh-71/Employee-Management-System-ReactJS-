@@ -17,7 +17,8 @@ const TaskContainer = ({ loggedInUserNow }) => {
     let tasks = loggedInUserNow.employee?.tasks || []
     tasks.forEach((task) => {
       if (task.active) {
-        activeTaskCount++;
+        acceptedTaskCount++;
+        
       }
       if (task.completed) {
         completedTaskCount++;
@@ -26,7 +27,7 @@ const TaskContainer = ({ loggedInUserNow }) => {
         failedTaskCount++;
       }
       if (task.newTask) {
-        acceptedTaskCount++;
+        activeTaskCount++;
       }
       
     })
