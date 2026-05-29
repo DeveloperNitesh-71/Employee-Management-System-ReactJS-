@@ -11,7 +11,16 @@ const Login = ({ handleLogin }) => {
   };
 
   return (
-    <div className="h-screen w-screen flex items-center justify-center">
+    <div className="h-screen w-screen flex items-center justify-evenly ">
+      <div className="flex flex-col items-start justify-center text-base/5">
+        <p>admin: admin@me.com</p>
+        <p>employee1: employee1@company.com</p>
+        <p>employee2: employee2@company.com</p>
+        <p>employee3: employee3@company.com</p>
+        <p>employee4: employee4@company.com</p>
+        <p>employee5: employee5@company.com</p>
+        <p>Password: 123</p>
+      </div>
       <div className="h-[250px] w-[400px] border-1 border-green-400 rounded-lg ">
         <form
           className="flex flex-col p-5 justify-center items-center gap-4"
